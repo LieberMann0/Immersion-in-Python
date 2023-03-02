@@ -7,7 +7,7 @@
 from random import randint
 
 LOWER_LIMIT = 0
-UPPER_LIMIT = 1000
+UPPER_LIMIT = 10
 try_number = 1
 try_limit = 10
 num = randint(LOWER_LIMIT, UPPER_LIMIT)
@@ -25,6 +25,11 @@ while try_number < (try_limit + 1):
     elif attempt == num:
         print("Вы отгадали!")
         break
+
+else:
+    print("Попытки закончились")
+    #quit()
+
 print("Игра окончена")
 
 
