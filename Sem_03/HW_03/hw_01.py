@@ -9,9 +9,7 @@ double_elements_list = []
 for i in my_list:
     x = my_list.count(i)    
     if x > 1:
-        if double_elements_list.count(i) != 0:
-            continue        
-        else:
+        if i not in double_elements_list:            
             double_elements_list.append(i)        
 
 print(double_elements_list)
