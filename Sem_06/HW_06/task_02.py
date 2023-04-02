@@ -50,5 +50,3 @@ if __name__ == '__main__':
     print(check_date('29.02.0004')) 
     print(check_date('29.02.0001'))
     print(check_date('32.01.0001'))
-
-
