@@ -24,5 +24,4 @@ def parse_file_to_JSON(file_name: str, file_name_JSON: str) -> None:
 
 if __name__ == '__main__':
     parse_file_to_JSON("task_01_data.txt", "task_01_data")
-
     

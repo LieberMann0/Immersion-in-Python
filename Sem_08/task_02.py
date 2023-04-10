@@ -64,4 +64,3 @@ def add_info(file_name: str = "task_02_data.json") -> None:
 
 if __name__ == '__main__':
     add_info("task_02_data.json")
-    
