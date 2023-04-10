@@ -77,3 +77,4 @@ def recursive_directories(path: Path) -> None:
 
 if __name__ == '__main__':
     recursive_directories(Path("C:\\Users\\Admin\\MyProjectsPython\\GB_python\\venv"))
+    
