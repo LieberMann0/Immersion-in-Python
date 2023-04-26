@@ -12,6 +12,7 @@ class User:
         self.id = id
         self.level = level
 
+
     def reed_json(file_name: str):
         users = set()
         with open(file_name, 'r', encoding='utf-8') as f:
@@ -23,4 +24,4 @@ class User:
         return users
 
 
-print(User.reed_json('indent.json'))
+print(User.reed_json('id.json'))
